@@ -1,9 +1,12 @@
 
+import Wellcome from './components/wellcome/Wellcome'
 import styles from './style/Styles.module.css'
 
 const Home = () => {
   return (
-    <div className={styles.container}>Home.page</div>
+    <div className={styles.container}>
+      <Wellcome />
+    </div>
   )
 }
 

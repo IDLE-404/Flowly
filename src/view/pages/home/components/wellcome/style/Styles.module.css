@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.boxWellcome {
+  display: flex;
+  flex-direction: column;
+}
+.boxBtn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.title {
+  font-size: 42px;
+  font-weight: 700;
+}
+.textgradient {
+  background: linear-gradient(
+    90deg,
+    oklch(55.8% 0.288 302.321),
+    oklch(54.6% 0.245 262.881)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
