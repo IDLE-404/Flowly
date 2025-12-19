@@ -7,11 +7,19 @@ const Wellcome = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.ball}></div>
+      <div className={styles.balls}>
+        <div className={styles.ball}></div>
+        <div className={styles.ball2}></div>
+      </div>
       <div className={styles.boxWellcome}>
         <div className={styles.containerWellcome}>
-          <span className={styles.title} >Найдите подходящий курс для <p className={styles.textgradient}>вашего развития</p></span>
-          <p className={styles.text}>Открывайте, сравнивайте и сохраняйте лучшие курсы</p>
+          <span className={styles.title}>
+            Найдите подходящий <br /> курс для{" "}
+            <span className={styles.textgradient}>вашего развития</span>
+          </span>
+          <p className={styles.text}>
+            Открывайте, сравнивайте и сохраняйте лучшие курсы
+          </p>
         </div>
         <div className={styles.boxBtn}>
           <button onClick={() => navigate("/courses")}>Найти курсы</button>

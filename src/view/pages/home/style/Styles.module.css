@@ -1,0 +1,8 @@
+.containerWellcome{
+    margin-top: 150px;
+}
+.containerWellcome{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
